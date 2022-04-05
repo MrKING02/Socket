@@ -21,13 +21,12 @@
     };                                                      */
 /**/
 
-
-
 #ifndef PACKET_H
 #define PACKET_H
 
 #include <stdio.h>
 #include <stdbool.h>
+#include <stdlib.h>
 
 #define MAX_BUFFER 40
 #define SIZE_ENUM 4

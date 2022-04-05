@@ -1,2 +1,2 @@
-ServerMake: Main.c server.c Queue.c Serialize.c
-	gcc -o Server_Chat Main.c server.c Queue.c Serialize.c -lpthread -lncurses
+ClientMake: main.c client.c Serialize.c UI.c
+	gcc -o Client_Chat main.c client.c Serialize.c UI.c -lpthread -lncurses
